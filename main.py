@@ -15,9 +15,9 @@ co = (ChromiumOptions()
 .set_paths(
     browser_path=r'这里修改为您的浏览器可执行文件路径，可以在chrome浏览器的地址栏中输入：chrome://version 查看'))
 BAIDU_URL = 'https://www.baidu.com/'
-TEL_NUMBER = ''  # 手机号码
-TEL_NAME = ''  # 名字(可选)
-TEL_TEXT= '' # 留言(可选)
+TEL_NUMBER = '18907838831'  # 手机号码
+TEL_NAME = '黄勇'  # 名字(可选)
+TEL_TEXT= '我有些病不方便说，能不能电话联系。看了很多地方都看不好' # 留言(可选)
 ENABLE_OTP = False  # 如果为True ,且页面元素存在‘去官网按钮’则进入官网发送验证码 https://github.com/ehnait/contactPutianHospital/issues/13
 
 
